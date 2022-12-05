@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 300px;
+            background-color: blueviolet;
+color: white;
+font-size: 89px;
+display: none;
+        }
+        @media(min-width:320px) and (max-width:480px){
+#one{
+    display: block;
+    border-color:aqua;
+} 
+
+}
+@media ( min-width:481px) and(max-width:768px){
+#two{
+    display: block;
+    background-color: burlywood;
+}}
+@media(min-width:769px) and (max-width:1024px) {
+#three{
+    display: block;
+    background-color: crimson;
+}
+}
+@media(min-width:1025px) and (max-width:1200px) {
+    #four{
+        display: block;
+        background-color: darkgreen;
+    }
+}
+@media(min-width:1201px) {
+#five{
+    display: block;
+    background-color: darkred;
+}
+
+
+
+}
+
+        
+    </style>
+</head>
+<body>
+    <div class="main" id="one"> I am mobile</div>
+    <div class="main" id="two"> I am tablet</div>
+    <div class="main" id="three">I am desktop</div>
+    <div class="main" id="four">I am laptop</div>
+    <div class="main" id="five">I am large screen</div>
+</body>
+</html>
